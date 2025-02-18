@@ -1,0 +1,1 @@
+In PHP, a common yet often overlooked error is the misuse of the `==` (loose comparison) operator instead of the `===` (strict comparison) operator. This can lead to unexpected behavior, especially when dealing with type juggling. For instance, comparing `'0'` (string) to `0` (integer) with `==` results in `true`, while `===` correctly yields `false`.
